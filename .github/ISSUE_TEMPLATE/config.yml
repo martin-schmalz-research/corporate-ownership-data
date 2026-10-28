@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Other questions and feedback
+    url: https://corporateownershipdata.com/feedback/
+    about: Questions about the data or the website go through the website's feedback page.
+  - name: Request the full data
+    url: https://corporateownershipdata.com/datasets/request_download/
+    about: The full panel is available through the data request, not through this repository.

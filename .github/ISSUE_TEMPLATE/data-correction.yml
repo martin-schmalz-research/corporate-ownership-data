@@ -1,0 +1,66 @@
+name: Data correction
+description: Report a wrong or missing ownership figure for a company or an investor
+title: "[Data correction] "
+labels: ["data-correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. Reports are reviewed against the SEC filings. A confirmed report is listed as a known
+        problem on the website and fixed in a later data release; reports never edit the published data
+        directly. **This issue is public: do not include personal information.**
+  - type: dropdown
+    id: subject
+    attributes:
+      label: What is the report about?
+      options:
+        - A company
+        - An investor
+        - A company's share classes (classes, votes per class)
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Company or investor
+      description: Name as shown on corporateownershipdata.com, plus its SEC CIK if you know it.
+      placeholder: "Tesla Inc, CIK 1318605"
+    validations:
+      required: true
+  - type: input
+    id: quarters
+    attributes:
+      label: Quarter range
+      description: First and last quarter affected, quarter-end dates or as "2016 Q3 – 2019 Q3".
+      placeholder: "2016 Q3 – 2019 Q3"
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong?
+      description: What the data show, what you think it should be, and why. Say which investor and which number (β ownership share or γ voting share) if you can.
+    validations:
+      required: true
+  - type: input
+    id: filing
+    attributes:
+      label: Link to the SEC filing
+      description: A link to the filing on sec.gov that supports the correction.
+      placeholder: "https://www.sec.gov/Archives/edgar/data/..."
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: Credit
+      description: The name or GitHub account to credit in the public changelog. Leave blank for no credit.
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before you send
+      options:
+        - label: I checked that this is not already listed under known problems (docs/known-problems.md).
+          required: false
+        - label: I understand this issue is public.
+          required: true

@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+message: "If you use this data, please cite both papers below."
+title: "Corporate ownership data"
+type: dataset
+url: "https://corporateownershipdata.com/"
+authors:
+  - family-names: Amel-Zadeh
+    given-names: Amir
+  - family-names: Kasperk
+    given-names: Fiona
+  - family-names: Schmalz
+    given-names: Martin C.
+preferred-citation:
+  type: article
+  title: "Mavericks, Universal, and Common Owners - The Largest Shareholders of U.S. Public Firms"
+  authors:
+    - family-names: Amel-Zadeh
+      given-names: Amir
+    - family-names: Kasperk
+      given-names: Fiona
+    - family-names: Schmalz
+      given-names: Martin C.
+  url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4059513"
+  notes: "SSRN working paper"
+references:
+  - type: article
+    title: "Mavericks, Universal, and Common Owners - The Largest Shareholders of U.S. Public Firms"
+    authors:
+      - family-names: Amel-Zadeh
+        given-names: Amir
+      - family-names: Kasperk
+        given-names: Fiona
+      - family-names: Schmalz
+        given-names: Martin C.
+    url: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4059513"
+    notes: "SSRN working paper"
+  - type: article
+    title: "Common Ownership, Incentives & Productivity"
+    authors:
+      - family-names: Amel-Zadeh
+        given-names: Amir
+      - family-names: Kasperk
+        given-names: Fiona
+      - family-names: Schmalz
+        given-names: Martin C.
+    url: "https://www.ssrn.com/abstract=4941701"
+    notes: "SSRN working paper"
