@@ -3,6 +3,8 @@ message: "If you use this data, please cite both papers below."
 title: "Corporate ownership data"
 type: dataset
 url: "https://corporateownershipdata.com/"
+version: "2026.10-1"
+date-released: 2026-10-29
 authors:
   - family-names: Amel-Zadeh
     given-names: Amir
